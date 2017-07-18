@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <com.example.payItemStyle.PayItem
+            android:id="@+id/payItem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    
+       <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <com.example.payItemStyle.PayItem
+            android:id="@+id/payItem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+ 
+
+</LinearLayout>
